@@ -1,0 +1,21 @@
+{
+    "name": "riverslei/xmpush",
+    "type": "library",
+    "description": "小米消息推送composer安装版本，sdk代码由小米提供，该接口只完成composer安装部分",
+    "keywords": ["xmpush", "小米推送", "php xmpush", "小米推送 php sdk", "推送SDK"],
+    "homepage": "https://github.com/helei112g",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "helei",
+            "email": "dayugog@gmail.com",
+            "homepage": "https://helei112g.github.io/"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {"Xmpush\\": "src/"}
+    }
+}
