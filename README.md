@@ -14,7 +14,19 @@ v1.0.0 | 2.2.16版 | 新增对多包名发送alias/regid/topic消息的支持 | 
 
 # 通过composer进行安装
 
+通过composer，这是制作本sdk的初衷，可以使用composer.json 声明依赖，或者运行下面的命令。SDK 包已经放到这里 riverslei/xmpush
 
+```php
+    composer require "riverslei/xmpush:~1.0.0"
+```
+
+放入composer.json文件中
+
+```php
+    "require": {
+        "riverslei/xmpush": "~1.0.0"
+    }
+```
 
 # 关于维护
 
