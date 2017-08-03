@@ -56,12 +56,10 @@ $targetMessage2->setMessage($message2);
 $targetMessageList = array($targetMessage, $targetMessage2);
 //print_r($sender->multiSend($targetMessageList,TargetedMessage::TARGET_TYPE_ALIAS)->getRaw());
 
-print_r($sender->sendToAliases($message1,$aliasList)->getRaw());
+print_r($sender->sendToAliases($message1, $aliasList)->getRaw());
 //$stats = new Stats();
 //$startDate = '20140301';
 //$endDate = '20140312';
 //print_r($stats->getStats($startDate,$endDate)->getData());
 //$tracer = new Tracer();
 //print_r($tracer->getMessageStatusById('t1000270409640393266xW')->getRaw());
-
-?>

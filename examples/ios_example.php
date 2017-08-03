@@ -25,6 +25,4 @@ $message->extra('payload', $payload);
 $message->build();
 
 $sender = new Sender();
-print_r($sender->sendToAliases($message,$aliasList)->getRaw());
-
-?>
+print_r($sender->sendToAliases($message, $aliasList)->getRaw());
